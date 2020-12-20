@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <title>Psic. Daniel Machuca</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -127,6 +129,24 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   </div>
   
   <!-- End Page Container -->
+</div>
+<div style="font-size:16px;margin:0 auto;width:300px" class="blockchain-btn" data-address="1FoTVibUHgvQcPAePL7AgE2R3fz6ATYDkz" data-shared="false">
+  <div class="blockchain stage-begin">
+      <img src="https://blockchain.info/Resources/buttons/donate_64.png"/>
+  </div>
+  <div class="blockchain stage-loading" style="text-align:center">
+      <img src="https://blockchain.info/Resources/loading-large.gif"/>
+  </div>
+  <div class="blockchain stage-ready">
+      <p align="center">Please Donate To Bitcoin Address: <b>[[address]]</b></p>
+      <p align="center" class="qr-code"></p>
+  </div>
+  <div class="blockchain stage-paid">
+      Donation of <b>[[value]] BTC</b> Received. Thank You.
+  </div>
+  <div class="blockchain stage-error">
+      <font color="red">[[error]]</font>
+  </div>
 </div>
 
 <footer class="w3-container w3-teal w3-center w3-margin-top">
